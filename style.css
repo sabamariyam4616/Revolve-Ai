@@ -142,13 +142,13 @@ nav ul li a {
 }
 .intro {
   color: #4783c4;
-  font-size: 15px;
+  font-size: 12px;
+  letter-spacing: 1.5px;
   padding-top: 15px;
   padding-bottom: 15px;
   text-align: center;
   margin: 8px;
-  font-style: italic;
-  font-family: Avenir LT Std;
+  font-family: "55 Roman 10px/24px  Avenir LT Std";
   text-shadow: 0px 3px 6px #010829;
 }
 .banner {
@@ -232,15 +232,35 @@ hr.line {
 
 .img-text {
   box-shadow: 0 0 4px 0 #202a5d;
-  margin-top: 2px;
-  margin-bottom: 2px;
-  margin-left: 2px;
-
   height: 300px;
   display: block;
   text-align: center;
   padding: 20% 5%;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 2px;
   border-radius: 15px;
+  letter-spacing: 0.2px;
+  color: #757575;
+}
+
+.img-text-awards {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 46px #00000017;
+  height: auto;
+  display: block;
+  text-align: left;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 10px;
+  border-radius: 15px;
+  letter-spacing: 0.2px;
+  color: #757575;
+}
+
+.img-text h4 {
+  font-weight: bold;
+  color: #010927;
 }
 .stars {
   color: goldenrod;
