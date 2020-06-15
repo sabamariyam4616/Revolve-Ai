@@ -10,6 +10,17 @@
   padding-right: 0;
 }
 
+.container .links {
+  /* margin-left: 50px; */
+  text-align: left;
+}
+
+.text-b {
+  font: Bold 18px/22px Proxima Nova;
+  letter-spacing: 0.36px;
+  color: #171819;
+  opacity: 1;
+}
 .fixed-top {
   position: fixed;
   top: 0;
@@ -37,7 +48,9 @@ nav ul li a {
   padding-bottom: 0;
   padding-top: 70px !important;
 }
+
 /*--Animation Section--*/
+
 .box-area li {
   position: absolute;
   display: block;
@@ -100,7 +113,7 @@ nav ul li a {
   text-align: center;
   color: white;
   font-weight: 60px;
-
+  font-size: 30px;
   font-family: sans-serif;
   letter-spacing: 3px;
   margin-left: 50px;
@@ -129,14 +142,18 @@ nav ul li a {
 }
 .intro {
   color: #4783c4;
-  font-size: 12px;
+  font-size: 15px;
   padding-top: 15px;
   padding-bottom: 15px;
   text-align: center;
   margin: 8px;
+  font-style: italic;
   font-family: Avenir LT Std;
+  text-shadow: 0px 3px 6px #010829;
 }
-
+.banner {
+  padding-bottom: 0px;
+}
 /*--Footer Section--*/
 
 .full-footer {
@@ -151,7 +168,7 @@ nav ul li a {
 @media screen and (max-width: 480px) {
   /* width: 100% !important; */
   .row {
-    margin-left: -15px;
+    margin-left: 0px;
   }
   .full-footer {
     margin-right: -10px;
@@ -175,6 +192,7 @@ hr.line {
 }
 
 /*About Section*/
+
 .abt1 {
   padding-bottom: 0px !important;
   font-family: Candara;
@@ -192,24 +210,32 @@ hr.line {
 .abt3 {
   margin-top: 10px;
 }
+
 /*Services Section*/
+
 .hidden {
   margin-top: 7px;
 }
-.service-box {
+/*.service-box {
   box-shadow: 0 0 4px 0 #202a5d;
   position: relative;
   padding: 10px;
-}
+}*/
 .border {
   width: 160px;
   height: 5px;
   background: #202a5d;
   margin: 26px auto;
 }
+
 /*Testimonial Section*/
+
 .img-text {
   box-shadow: 0 0 4px 0 #202a5d;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 2px;
+
   height: 300px;
   display: block;
   text-align: center;
@@ -231,6 +257,7 @@ hr.line {
 }
 
 /*Newsletter Section*/
+
 .home-newsletter {
   background-image: linear-gradient(to right, #202a5d, #090e14);
   color: #fff;
@@ -246,7 +273,9 @@ hr.line {
   background: #4783c4;
   color: white;
 }
+
 /*--Awards Section--*/
+
 .clients-section {
   background-color: #ffffff;
 }
